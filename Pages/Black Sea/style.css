@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+}
+
+.homePage{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color: cadetblue;
+    color: #fff;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: circle;
+    margin-right: 50px;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav ul li:last-child{
+    margin-right: 0;
+}
+
+.logo{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.homeContainer{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img3.goodfon.ru/wallpaper/nbig/9/bc/sea-blue-ocean-beach-emerald.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+p{
+    margin: 20px 200px 50px
+}
+
+h1{
+    font-size: 60px;
+}
+
+.homeBnt{
+    padding: 20px 50px;
+    background-color: rgba(255,255,255, 0);
+    border: 1px solid #eee;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 18px;
+    cursor: pointer;
+}
+.homeContainer p {
+    text-align: center;
+}
+.homeBnt:hover{
+    background-color: rgba(255,255,255, .5);
+      transition: 0.3s;
+    padding: 20px 60px;
+}
+.feedbackPage{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedbackContainer h3{
+    text-align: center;
+    font-size: 24px;
+}
+
+.feedbackRow{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ margin-top: 70px;
+}
+
+.feedbackIton{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+.img__page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    background-color: #000;
+}
+.img__page img{
+    width: 100px;
+}
+.pic1{
+    background-image: url(./img/location.png);
+
+}
+.pic2{
+    background-image: url(./img/worldwide.png);
+}
+.pic3{
+   background-image: url(./img/budget.png);
+}
+.feedbackRow2{
+    width: 80%;
+    height: 60vh;
+    background-size: cover;
+    border-radius: 20px;
+}
+.feedbackItem2{
+    width: 180vh;
+    height: 60vh;
+    background-size: cover;
+    border-radius: 20px;
+}
+.block1{
+    background-color: cornflowerblue;
+}
+.block2{
+    background-color: firebrick;
+    margin-top: 140px;
+}
+.block4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+.block4 h2{
+    margin-top: 20px;
+}
+.block4 h4{
+    text-align: center;
+    width: 55%;
+    margin-top: 10px;
+}
+.pic4{
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/woman.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: solid white 3px;
+}
+.block5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.pic5{
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/man.png);
+    background-size: cover;
+    border: solid white 3px;
+    border-radius: 50%;
+}
+.picTUre{
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/businessman.png);
+    background-size: cover;
+    border: solid white 3px;
+    border-radius: 50%;
+}
+.block6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+.pic6{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.footerItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: cover;
+    margin: 5px;
+}
+.pic7{
+    width: 60px;
+    height: 60px;
+    background-image: url(./img/youtube.png);
+    background-size: cover;
+}
+.pic8{
+    width: 60px;
+    height: 60px;
+    background-image: url(./img/twitter.png);
+    background-size: cover; 
+}
+.pic9{
+    width: 60px;
+    height: 60px;
+    background-image: url(./img/tik-tok.png);
+    background-size: cover;
+}
+.footerItem2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #000;
+}
+.text1{
+    color: gold;
+}
+.feedbackItem2block2{
+    background-color: #000;
+    width: 100%;
+}
+.footerPage{
+    display: flex;
+    justify-content: center;
+}
+.text1{
+    font-weight: 900;
+}
+.block4{
+    margin: 40px 0;
+}

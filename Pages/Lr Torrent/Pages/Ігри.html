@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ігри</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../img/photo_2022-08-29_17-08-28.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrap">
+       <div class="burger burgeractive">
+       <a href="../index.html">Головна</a>
+                <a href="./Pages/Ігри.html">Ігри</a>
+                <a href="./Pages/Контакти.html">Контакти</a>
+                <a href="#">Підтримати</a>
+                <input type="text" type="Пошук" placeholder="Пошук">
+                <button class="cursor">Пошук</button>
+       </div>
+        <div class="header">
+            <img src="../img/photo_2022-08-29_17-08-28.jpg" alt="">
+            <a href="../index.html">Головна</a>
+                <a href="./Pages/Ігри.html">Ігри</a>
+                <a href="./Pages/Контакти.html">Контакти</a>
+                <a href="#">Підтримати</a>
+                <div>
+                    <input class="input" type="Пошук" placeholder="Пошук">
+                <button class="cursor">Пошук</button>
+                </div>
+                <div class="burgerbutton">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+        </div>
+            <div class="main">
+            <div class="category">
+                <a href="Найновіші.html">Найновіші</a>
+                <a href="З хорошим сюжетом.html">Хороший сюжет</a>
+                <a href="Виживання.html">Виживання</a>
+                <a href="Спорт.html">Спорт</a>
+                <a href="Бійки.html">Бійки</a>
+                <a href="Гонки.html">Гонки</a>
+                <a href="Для слабих пк.html">Для слабих пк</a>
+                <a href="Найочікуваніші.html">Найочікуваніші</a>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="card">
+                        <div class="photo">
+                            <img src="https://torrents-igruha.org/uploads/posts/2022-07/1657673641_cover.png" alt="">
+                        </div>
+                        <h4 class="cardName">Marvel’s Spider-Man Remastered</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam.</p>
+                        <div class="btn_row">
+                            <a href="./Подивитись сторінка/Marvel’s Spider-Man Remastered.html" class="btnView">Подивитись</a>
+                            <a href="./Торрент/Marvels-Spider-Man-Remastered-by-Igruha.torrent" download class="btnBuy">Скачати</a>
+                        </div>
+                    </div>
+                    
+                     <div class="card">
+                        <div class="photo">
+                            <img src="https://torrents-igruha.org/uploads/posts/2022-01/1642363884_cover.jpg" alt="">
+                        </div>
+                        <h4 class="cardName">Dying Light 2 Stay Human</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam.</p>
+                        <div class="btn_row">
+                            <a href="../Подивитись сторінка/Dying Light 2 Stay Human.html" class="btnView">Подивитись</a>
+                            <a href="../Торрент/Dying-Light-2-Stay-Human-by-Igruha.torrent" download class="btnBuy">Скачати</a>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <div class="photo">
+                            <img src="https://torrents-igruha.org/uploads/posts/2021-11/1635973218_cover.jpg" alt="">
+                        </div>
+                        <h4 class="cardName">Forza Horizon 5</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam.</p>
+                        <div class="btn_row">
+                            <a href="#" class="btnView">Подивитись</a>
+                            <a href="../Торрент/Forza-Horizon-5-Premium-Edition-by-Igruha.torrent" download class="btnBuy">Скачати</a>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <div class="photo">
+                            <img src="data:image/jpeg;base64,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">
+                        </div>
+                        <h4 class="cardName">Gta Ukraine</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam.</p>
+                        <div class="btn_row">
+                            <a href="#" class="btnView">Подивитись</a>
+                            <a href="../Торрент/UkraineGTA-Install.torrent" download class="btnBuy">Скачати</a>
+                        </div>
+                    </div>                    
+                </div>
+                 <div class="row">
+                    <div class="card">
+                        <div class="photo">
+                            <img src="https://torrents-igruha.org/uploads/posts/2021-10/1633083096_cover.jpg" alt="">
+                        </div>
+                        <h4 class="cardName">Fifa 22</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam.</p>
+                        <div class="btn_row">
+                            <a href="#" class="btnView">Подивитись</a>
+                            <a href="../Торрент/FIFA.22.OriginRip.torrent" download class="btnBuy">Скачати</a>
+                        </div>
+                    </div>
+                    
+                     <div class="card">
+                        <div class="photo">
+                            <img src="https://torrents-igruha.org/uploads/posts/2022-07/1659009453_cover.png" alt="">
+                        </div>
+                        <h4 class="cardName">Grand theft auto V</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam.</p>
+                        <div class="btn_row">
+                            <a href="#" class="btnView">Подивитись</a>
+                            <a href="../Торрент/grand-theft-auto-v (1).torrent" download class="btnBuy">Скачати</a>
+                        </div>
+                    </div>
+    
+                     <div class="card">
+                        <div class="photo">
+                            <img src="https://torrents-igruha.org/uploads/posts/2021-12/1639680602_cover.jpg" alt="">
+                        </div>
+                        <h4 class="cardName">Minecraft</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam.</p>
+                        <div class="btn_row">
+                            <a href="../Подивитись сторінка/Minecraft.html" class="btnView">Подивитись</a>
+                            <a href="../Торрент/Minecraft-by-Igruha.torrent" download class="btnBuy">Скачати</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="photo">
+                            <img src="https://upload.wikimedia.org/wikipedia/ru/b/bb/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%B8%D0%B3%D1%80%D1%8B_Cyberpunk_2077.jpg" alt="">
+                        </div>
+                        <h4 class="cardName">Cyberpunk</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quibusdam.</p>
+                        <div class="btn_row">
+                            <a href="../Подивитись сторінка/Cyberpunk 2077.html" class="btnView">Подивитись</a>
+                            <a href="../Торрент/cyberpunk-2077.torrent" download class="btnBuy">Скачати</a>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+        </div>
+       
+        
+        
+    </div>
+
+</body>
+
+</html>

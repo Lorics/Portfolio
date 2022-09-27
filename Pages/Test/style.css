@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+}
+.firstPage{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.secondPage{
+    height: 100vh;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.thirdPage{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+.fourthPage{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1{
+    height: 40px;
+    width: 175px;
+    background-color: chocolate;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+.thirdPageleft{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+}
+.thirdPageright{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+}
+.box5{
+    width: 70%;
+    height: 300px;
+    background-color: white;
+}
